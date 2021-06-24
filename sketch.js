@@ -59,7 +59,7 @@ restart.scale = 0.5;
 }
 
 function draw() {
-  background(180);
+  background("red");
    text("Score: "+ score, 450,20);
   if(gameState === PLAY){
     //move the ground
